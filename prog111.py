@@ -20,4 +20,3 @@ for num in range (1, 10 + 1):
 # Saida de dados
 print "Maior valor:",maior
 print "Menor valor:",menor
-
