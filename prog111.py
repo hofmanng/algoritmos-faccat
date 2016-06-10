@@ -4,6 +4,7 @@
 # negativos. Escreva o maior valor lido.
 #
 
+# Processamento
 for num in range (1, 10 + 1):
     # Entrada de dados
     valor = int(input("Insira um valor: "))
@@ -14,9 +15,5 @@ for num in range (1, 10 + 1):
     else:
         if valor > maior:
             maior = valor
-        else:
-            if valor < menor:
-                menor = valor
 # Saida de dados
 print "Maior valor:",maior
-print "Menor valor:",menor
