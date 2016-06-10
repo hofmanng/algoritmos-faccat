@@ -21,4 +21,4 @@ while cont <= 10:
     else:
         print "Valor incorreto. Insira novamente."
 # Saida de dados
-print "O maior valor inserido foi",menor
+print "O menor valor inserido foi",menor
