@@ -12,9 +12,9 @@ soma = 0
 # Loop
 for a in range(1, n + 1):
     soma = soma + a
-    print a,"+",
+    print a,
+    if a < n:
+        print "+",
 else:
-    print
-
-# Saida de dados
-print "=",soma
+    # Saida de dados
+    print "=",soma

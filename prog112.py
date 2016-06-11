@@ -21,7 +21,7 @@ for n in range(1, num + 1):
             maior = valor
     # Acumulador
     soma = soma + valor
-
+# Saida de dados
 print "O maior valor lido foi",maior
 print "A media dos numeros lidos eh",(soma / num)
 
