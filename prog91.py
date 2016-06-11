@@ -9,8 +9,12 @@ soma = 0
 
 # Processamento
 for a in range(1, n + 1):
-    print soma,"+",a,
     soma = soma + a
+    print a,
+    if a < n:
+        print "+",
+else:
+    # Saida de dados
     print "=",soma
 
 # Saida de dados
