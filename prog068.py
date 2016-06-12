@@ -6,12 +6,12 @@
 #
 
 # Declaracao de variaveis e entrada de dados
-num1 = int(input("Insira o primeiro valor: "))
-num2 = int(input("Insira o segundo valor: "))
+num1 = float(input("Insira o primeiro valor: "))
+num2 = float(input("Insira o segundo valor: "))
 
 # Processamento
 while num2 == 0:
     num2 = int(input("Insira o segundo valor: "))
 
 # Saida de dados 
-print "A soma dos dois valores eh",(num1 + num2)
+print "A divisao dos dois valores eh",(num1 / num2)
